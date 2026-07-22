@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Crytobox",
+  "description": "A premium, modern Web3 Crypto Airdrop Discovery Platform with secure simulated wallet authentication, transaction verification, interactive dashboard, and fully functional admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

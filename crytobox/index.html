@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crytobox - Modern Web3 Airdrop Portal</title>
+    <script>
+      (function() {
+        // Silence benign iframe environment WebSocket/Vite HMR connection errors
+        window.addEventListener('unhandledrejection', function(event) {
+          var msg = event.reason && (event.reason.message || event.reason.toString());
+          if (msg && (
+            msg.indexOf('WebSocket') !== -1 || 
+            msg.indexOf('websocket') !== -1 ||
+            msg.indexOf('HMR') !== -1
+          )) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+        }, true);
+
+        window.addEventListener('error', function(event) {
+          var msg = event.message || (event.error && event.error.message);
+          if (msg && (
+            msg.indexOf('WebSocket') !== -1 || 
+            msg.indexOf('websocket') !== -1 ||
+            msg.indexOf('HMR') !== -1
+          )) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+        }, true);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

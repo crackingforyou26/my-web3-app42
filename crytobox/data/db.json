@@ -1,0 +1,306 @@
+{
+  "airdrops": [
+    {
+      "id": "1",
+      "name": "Berachain",
+      "logo": "🐻",
+      "description": "An EVM-compatible Layer 1 blockchain built on Proof-of-Liquidity consensus. Join the Artio Testnet to secure potential BERA tokens.",
+      "reward": "$500-$1000",
+      "difficulty": "Medium",
+      "timeRemaining": "14 days left",
+      "blockchain": "Ethereum",
+      "joinUrl": "https://artio.faucet.berachain.com/",
+      "category": "defi",
+      "featured": true,
+      "popular": true,
+      "trending": true,
+      "status": "active",
+      "detailedSteps": [
+        "Add Berachain Artio Network to your Metamask wallet.",
+        "Claim BERA testnet tokens from the official faucet.",
+        "Swap BERA for STGUSDC and other tokens on BEX DEX.",
+        "Provide liquidity to the pool on BEX to earn BGT tokens.",
+        "Supply or borrow assets on Bend to earn rewards."
+      ],
+      "requirements": [
+        "Web3 Wallet (MetaMask, Trust Wallet)",
+        "Discord account for faucet access Verification",
+        "Twitter account to follow updates"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Monad Testnet",
+      "logo": "🔮",
+      "description": "An ultra-high-performance EVM Layer 1 with 10,000+ TPS. Participate in developer testnets and social quests.",
+      "reward": "$1000+",
+      "difficulty": "Hard",
+      "timeRemaining": "28 days left",
+      "blockchain": "Ethereum",
+      "joinUrl": "https://monad.xyz/",
+      "category": "layer-2",
+      "featured": true,
+      "popular": true,
+      "trending": false,
+      "status": "active",
+      "detailedSteps": [
+        "Follow Monad on Twitter and join their official Discord server.",
+        "Interact with Monad social campaign hubs on Galxe or Layer3.",
+        "Claim Devnet/Testnet faucet tokens when they become available.",
+        "Run a local test node if you possess technical capabilities."
+      ],
+      "requirements": [
+        "Web3 Wallet",
+        "Galxe / Layer3 Level 5+ Profile",
+        "Discord Role: Monster"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Base Odyssey",
+      "logo": "🔵",
+      "description": "Explore the Base ecosystem and mint exclusive commemorative NFTs. Secure active on-chain footprints.",
+      "reward": "$100-$500",
+      "difficulty": "Easy",
+      "timeRemaining": "5 days left",
+      "blockchain": "Base",
+      "joinUrl": "https://base.org/",
+      "category": "layer-2",
+      "featured": false,
+      "popular": true,
+      "trending": true,
+      "status": "active",
+      "detailedSteps": [
+        "Bridge ETH from Ethereum Mainnet to Base network using the official Base Bridge.",
+        "Execute at least 3 swaps on Base DEXs like Uniswap, Aerodrome, or Maverick.",
+        "Mint the Base commemorative NFT on Zora or Layer3.",
+        "Complete the official quests on Base Guild.xyz."
+      ],
+      "requirements": [
+        "MetaMask or Coinbase Wallet connected",
+        "0.005 ETH for bridging & gas"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Solana Blinks Quests",
+      "logo": "☀️",
+      "description": "Experience Solana's new Blockchain Links (Blinks) and claim rewards directly from social feeds.",
+      "reward": "$100-$500",
+      "difficulty": "Easy",
+      "timeRemaining": "18 days left",
+      "blockchain": "Solana",
+      "joinUrl": "https://solana.com/",
+      "category": "nfts",
+      "featured": false,
+      "popular": false,
+      "trending": true,
+      "status": "active",
+      "detailedSteps": [
+        "Download Phantom Wallet or Backpack Wallet.",
+        "Navigate to designated verified Twitter blink links.",
+        "Perform actions like voting, staking or donating directly from Twitter.",
+        "Sign the transactions on Solana blockchain using your wallet."
+      ],
+      "requirements": [
+        "Solana Wallet (Phantom, Backpack)",
+        "0.02 SOL for gas and staking"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Scroll Origin NFT",
+      "logo": "📜",
+      "description": "The zkEVM rollup built on Ethereum. Complete on-chain volume and receive your developer status scroll.",
+      "reward": "$500-$1000",
+      "difficulty": "Medium",
+      "timeRemaining": "3 days left",
+      "blockchain": "Arbitrum",
+      "joinUrl": "https://scroll.io/",
+      "category": "layer-2",
+      "featured": true,
+      "popular": false,
+      "trending": false,
+      "status": "active",
+      "detailedSteps": [
+        "Bridge native ETH to Scroll Mainnet using native scroll bridge.",
+        "Interact with Scroll contracts by deploying a smart contract or swapping.",
+        "Perform daily swaps over 2 weeks to increase active days score."
+      ],
+      "requirements": [
+        "EVM Wallet",
+        "At least $10 in ETH on Scroll mainnet"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Linea Voyage",
+      "logo": "🌀",
+      "description": "Consensys L2 zkEVM blockchain ecosystem campaign. Gain Linea LXP by completing verified quests.",
+      "reward": "$1000+",
+      "difficulty": "Hard",
+      "timeRemaining": "9 days left",
+      "blockchain": "Ethereum",
+      "joinUrl": "https://linea.build/",
+      "category": "defi",
+      "featured": false,
+      "popular": true,
+      "trending": false,
+      "status": "active",
+      "detailedSteps": [
+        "Complete Linea Voyage quests on Intract or Layer3.",
+        "Gain PoH (Proof of Humanity) status to be eligible for rewards.",
+        "Engage in defi activities (swaps, liquidity, lending) with Linea partner dApps."
+      ],
+      "requirements": [
+        "Proof of Humanity Verification",
+        "MetaMask Wallet",
+        "Active social accounts"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "defi",
+      "name": "DeFi Protocols",
+      "slug": "defi",
+      "icon": "Coins"
+    },
+    {
+      "id": "layer-2",
+      "name": "Layer 2 & Rollups",
+      "slug": "layer-2",
+      "icon": "Layers"
+    },
+    {
+      "id": "nfts",
+      "name": "NFTs & Gaming",
+      "slug": "nfts",
+      "icon": "Gamepad2"
+    },
+    {
+      "id": "socialfi",
+      "name": "SocialFi & Web3",
+      "slug": "socialfi",
+      "icon": "Users"
+    }
+  ],
+  "users": [
+    {
+      "walletAddress": "0x71C7656EC7ab88b098defB751B7401B5f6d8976F",
+      "joinedAirdrops": [
+        "1",
+        "3"
+      ],
+      "pendingRewards": "$1200",
+      "completedRewards": "$450",
+      "status": "active",
+      "joinedAt": "2026-07-15T12:00:00Z",
+      "rank": 4,
+      "points": 180,
+      "balance": 5
+    },
+    {
+      "walletAddress": "0x4ed2338188d0e2e3b460a108274cb1d79a332d37",
+      "joinedAirdrops": [
+        "3",
+        "1"
+      ],
+      "pendingRewards": "$600",
+      "completedRewards": "$0",
+      "status": "active",
+      "joinedAt": "2026-07-18T12:55:27.483Z",
+      "rank": 2,
+      "points": 220,
+      "balance": 4.994
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TX529240",
+      "walletAddress": "0x4ed2338188d0e2e3b460a108274cb1d79a332d37",
+      "airdropId": "1",
+      "airdropName": "Berachain",
+      "amount": 0.003,
+      "txHash": "0xe69f47bd1d55cf1cd5b5237e7fc866b5c4d013b2",
+      "status": "success",
+      "timestamp": "2026-07-20T12:56:42.483Z"
+    },
+    {
+      "id": "TX866442",
+      "walletAddress": "0x4ed2338188d0e2e3b460a108274cb1d79a332d37",
+      "airdropId": "1",
+      "airdropName": "Berachain",
+      "amount": 0.003,
+      "txHash": "0x86b1a0ba434c467e0ebb18c033d9ed3bd56a0f6a",
+      "status": "success",
+      "timestamp": "2026-07-20T12:56:24.677Z"
+    },
+    {
+      "id": "TX203388",
+      "walletAddress": "0x4ed2338188d0e2e3b460a108274cb1d79a332d37",
+      "airdropId": "3",
+      "airdropName": "Base Odyssey",
+      "amount": 0.003,
+      "txHash": "0x68162a93de1782d9274b3e3f24cd7b00c71cf818",
+      "status": "success",
+      "timestamp": "2026-07-18T12:56:20.119Z"
+    },
+    {
+      "id": "TX120182",
+      "walletAddress": "0x4ed2338188d0e2e3b460a108274cb1d79a332d37",
+      "airdropId": "3",
+      "airdropName": "Base Odyssey",
+      "amount": 0.003,
+      "txHash": "0x5631c33a4d2473c090acba51a39de4984852954b",
+      "status": "success",
+      "timestamp": "2026-07-18T12:55:52.246Z"
+    },
+    {
+      "id": "TX100941",
+      "walletAddress": "0x71C7656EC7ab88b098defB751B7401B5f6d8976F",
+      "airdropId": "1",
+      "airdropName": "Berachain",
+      "amount": 0.005,
+      "txHash": "0x892a...f92a",
+      "status": "success",
+      "timestamp": "2026-07-16T14:32:00Z"
+    }
+  ],
+  "favorites": [
+    {
+      "walletAddress": "0x71C7656EC7ab88b098defB751B7401B5f6d8976F",
+      "airdropId": "2"
+    }
+  ],
+  "settings": {
+    "siteName": "Crytobox",
+    "siteLogo": "📦",
+    "heroTitle": "Discover Next-Gen Web3 Airdrops Securely",
+    "heroSubtitle": "The absolute easiest platform to explore, filter, and instantly join verified high-reward cryptocurrency airdrops in seconds.",
+    "footerText": "Crytobox is the premier catalog for Web3 enthusiasts. We index verified projects, provide visual step-by-step guidance, and secure users from phishing loops.",
+    "announcement": "🚀 SOLANA BLINKS CAMPAIGN IS LIVE! Claim up to $500 in rewards today. Connecting MetaMask, Trust, or Phantom is fully supported.",
+    "isMaintenance": false,
+    "joinFee": 0.003,
+    "seoTitle": "Crytobox - Premium Web3 Crypto Airdrop Portal",
+    "seoDescription": "Discover, track, and secure active Ethereum, Base, Solana, Arbitrum and BNB airdrops. Zero-trust wallet security & real-time updates.",
+    "telegramLink": "https://t.me/crytobox",
+    "twitterLink": "https://twitter.com/crytobox",
+    "discordLink": "https://discord.gg/crytobox",
+    "analyticsCode": "UA-CRYTOBOX-2026",
+    "ownerWalletAddress": "0x96B217983637e12763321528b9A26A207d5D66D5",
+    "usdtAddress": "0x4ed2338188d0e2e3b460a108274cb1d79a332d37",
+    "ethAddress": "0x96B217983637e12763321528b9A26A207d5D66D5",
+    "bnbAddress": "0x71C7656EC7ab88b098defB751B7401B5f6d8976F",
+    "btcAddress": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh",
+    "qrCodeAutoGeneration": true,
+    "enablePaymentRequirement": true,
+    "requiredFeeAmount": "0.003",
+    "supportedNetworks": [
+      "USDT",
+      "ETH",
+      "BNB",
+      "BTC"
+    ]
+  }
+}
